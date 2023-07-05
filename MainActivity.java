@@ -58,3 +58,23 @@ ContextMenu.ContextMenuInfo menuInfo) {
     return super.onContextItemSelected(item);
  }
 }
+
+menu.xml
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item
+ android:title="@string/one"
+ />
+ <item
+ android:title="@string/two"
+ />
+ <item
+ android:title="@string/three"
+ />
+ <item
+ android:title="@string/four"
+ />
+ <item
+ android:title="@string/five"
+ />
+</menu>
